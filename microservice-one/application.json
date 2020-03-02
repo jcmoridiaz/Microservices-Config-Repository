@@ -1,0 +1,4 @@
+{
+	"BaseDataUri": "https://opendata.nederlandwereldwijd.nl/v1/sources/nederlandwereldwijd/infotypes/traveladvice",
+	"fetchInterval": "00:05:00"
+}
