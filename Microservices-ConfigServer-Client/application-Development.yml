@@ -1,8 +1,5 @@
 connectionStrings: 
     MicroservicesClientConnectionString: Data Source=.;Initial Catalog=LibraryDevelopment;Persist Security Info=True;User ID=galaxy;Password=Password123  
 JwtSettings: 
-    Key: nskljgfdgokwernglsndgjknsñdjgnskjdfgnlkjsdnfskdjgsdjfkg
-    Issuer: https://localhost:44323/
-    Audience: Microservices.ConfigServer.ClientDevelopment
-    MinuteExpiration: 10
+    Audience: Microservices.ConfigServer.ClientDevelopment    
   
