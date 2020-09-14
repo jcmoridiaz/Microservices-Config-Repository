@@ -1,0 +1,15 @@
+ConnectionStrings: 
+    BikeStoreConnection: Data Source=PE-LPALQ00769\\MSSQLSERVER2019;Initial Catalog=BikeStore;Persist Security Info=True;User ID=sa;Password=Password1234
+HealthChecksUI: 
+    HealthChecks":
+        -   
+            Name: Microservices.Sales.API
+            Uri: /healthchecks-data-ui
+    Webhooks:
+        -
+            Name":
+            Uri":
+            Payload":
+            RestoredPayload":    
+    EvaluationTimeInSeconds": 10
+    MinimumSecondsBetweenFailureNotifications: 60
