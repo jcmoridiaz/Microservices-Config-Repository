@@ -1,5 +1,5 @@
 ConnectionStrings: 
-    BikeStoreConnection: Data Source=PE-LPALQ00769\\MSSQLSERVER2019;Initial Catalog=BikeStore;Persist Security Info=True;User ID=sa;Password=Password1234
+    MicroservicesMonitoringConnection: Data Source=PE-LPALQ00769\\MSSQLSERVER2019;Initial Catalog=BikeStore;Persist Security Info=True;User ID=sa;Password=Password1234
 HealthChecksUI: 
     HealthChecks":
         -   
