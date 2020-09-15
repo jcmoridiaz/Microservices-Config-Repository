@@ -8,8 +8,8 @@ HealthChecksUI:
     Webhooks:
         -
             Name:
-            Uri":
+            Uri:
             Payload:
             RestoredPayload:    
-    EvaluationTimeInSeconds": 10
+    EvaluationTimeInSeconds: 10
     MinimumSecondsBetweenFailureNotifications: 60
