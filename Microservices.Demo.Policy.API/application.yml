@@ -1,0 +1,2 @@
+ConnectionStrings: 
+    PolicyConnection: Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Password1234
