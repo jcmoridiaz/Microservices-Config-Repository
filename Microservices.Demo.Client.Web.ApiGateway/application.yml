@@ -3,7 +3,7 @@ WebApiGatewaySettings:
     AllowedChatOrigins:
         - https://localhost:44300
         - https://localhost:44398
-ReRoutes: 
+
     -    
         DownstreamPathTemplate: /api/Products/{everything}
         DownstreamScheme: https
