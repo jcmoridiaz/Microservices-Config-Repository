@@ -15,7 +15,8 @@ Routes:
             TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes: '[]'                
+#            AllowedScopes:
+#                -
         RouteClaimsRequirement:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
@@ -30,8 +31,8 @@ Routes:
             TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes:
-                -      
+ #           AllowedScopes:
+ #               -      
         RouteClaimsRequirement:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
@@ -44,8 +45,8 @@ Routes:
             - Post
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes: 
-                -
+  #          AllowedScopes: 
+  #              -
         RouteClaimsRequirement:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
@@ -60,8 +61,8 @@ Routes:
             - Post
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes:
-                -
+#            AllowedScopes:
+#                -
         RouteClaimsRequirement:
             userType: SALESMAN
         DangerousAcceptAnyServerCertificateValidator: true
@@ -76,8 +77,8 @@ Routes:
             TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes:
-                -      
+#            AllowedScopes:
+#                -      
         RouteClaimsRequirement:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
@@ -90,8 +91,8 @@ Routes:
             - Get
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes:
-                -      
+#            AllowedScopes:
+#                -      
         RouteClaimsRequirement: 
             userType: SALESMAN   
         DangerousAcceptAnyServerCertificateValidator: true    
