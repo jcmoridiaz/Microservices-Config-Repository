@@ -97,9 +97,9 @@ WebApiGatewaySettings:
         DangerousAcceptAnyServerCertificateValidator: true    
 GlobalConfiguration:
     RequestIdKey: OcRequestId,
-    AdministrationPath: /administration,
+    AdministrationPath: /administration
     UseServiceDiscovery: true
     ServiceDiscoveryProvider:
         Type: Eureka
-        Host: "localhost
+        Host: localhost
         Port: 8761
