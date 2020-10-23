@@ -5,6 +5,32 @@ WebApiGatewaySettings:
         - https://localhost:44398
 Routes: 
     -    
+        DownstreamPathTemplate: /api/Users
+        DownstreamScheme: https
+        UpstreamPathTemplate: /api/Users
+        ServiceName: Microservices.Demo.Auth.API
+        UpstreamHttpMethod: 
+            - Get
+        FileCacheOptions: 
+            TtlSeconds: 15
+        AuthenticationOptions:
+            AuthenticationProviderKey: ApiSecurityAuthenticationScheme
+#            AllowedScopes:
+#                -
+        RouteClaimsRequirement:
+            userType: SALESMAN      
+        DangerousAcceptAnyServerCertificateValidator: true
+    -
+        DownstreamPathTemplate: /api/Users
+        DownstreamScheme: https
+        UpstreamPathTemplate: /api/Users
+        ServiceName: Microservices.Demo.Auth.API
+        UpstreamHttpMethod:
+            - Post
+        FileCacheOptions: 
+            TtlSeconds: 15        
+        DangerousAcceptAnyServerCertificateValidator: true
+    -    
         DownstreamPathTemplate: /api/Products/{everything}
         DownstreamScheme: https
         UpstreamPathTemplate: /api/Products/{everything}
