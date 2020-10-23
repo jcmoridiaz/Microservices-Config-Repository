@@ -15,7 +15,8 @@ Routes:
             TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
-            AllowedScopes:[]
+            AllowedScopes: 
+                - null
         RouteClaimsRequirement:
             userType: SALESMAN      
         DangerousAcceptAnyServerCertificateValidator: true
