@@ -3,6 +3,23 @@ WebApiGatewaySettings:
     AllowedChatOrigins:
         - https://localhost:44300
         - https://localhost:44398
+ReRoutes: 
+    -    
+        DownstreamPathTemplate: /api/Products/{everything}
+        DownstreamScheme: https
+        UpstreamPathTemplate: /api/Products/{everything}
+        ServiceName: Microservices.Demo.Product.API
+        UpstreamHttpMethod: 
+            - Get
+        FileCacheOptions: 
+            TtlSeconds: 15
+        AuthenticationOptions:
+            AuthenticationProviderKey: ApiSecurityAuthenticationScheme
+            AllowedScopes: 
+                -
+        RouteClaimsRequirement:
+            userType: SALESMAN      
+        DangerousAcceptAnyServerCertificateValidator: true    
 GlobalConfiguration:
     RequestIdKey: OcRequestId
     AdministrationPath: /administration
