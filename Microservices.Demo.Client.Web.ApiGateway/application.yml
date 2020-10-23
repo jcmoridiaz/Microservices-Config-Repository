@@ -102,5 +102,5 @@ GlobalConfiguration:
     UseServiceDiscovery: true
     ServiceDiscoveryProvider:
         Type: Eureka
-        Host: localhost
+        Host: microservices.demo.discoveryserver
         Port: 8761
