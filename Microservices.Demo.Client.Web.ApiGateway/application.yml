@@ -72,7 +72,7 @@ Routes:
         UpstreamPathTemplate: /api/Policies/{number}
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
-            - Get,
+            - Get
         FileCacheOptions: 
             TtlSeconds: 15
         AuthenticationOptions:
