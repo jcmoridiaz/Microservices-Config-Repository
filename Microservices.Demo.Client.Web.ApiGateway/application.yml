@@ -96,7 +96,7 @@ WebApiGatewaySettings:
             userType: SALESMAN   
         DangerousAcceptAnyServerCertificateValidator: true    
 GlobalConfiguration:
-    RequestIdKey: OcRequestId,
+    RequestIdKey: OcRequestId
     AdministrationPath: /administration
     UseServiceDiscovery: true
     ServiceDiscoveryProvider:
