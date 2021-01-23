@@ -1,5 +1,5 @@
 ConnectionStrings: 
-    MicroservicesMonitoringDashboardConnection: Data Source=PE-LPALQ00769\MSSQLSERVER2019;Initial Catalog=Microservices.Monitoring.Dashboard;Persist Security Info=True;User ID=sa;Password=Password1234
+    MicroservicesMonitoringDashboardConnection: Data Source=.;Initial Catalog=Microservices.Monitoring.Dashboard;User ID=sa;Password=Password1234
 HealthChecksUI: 
     HealthChecks:
         -   
