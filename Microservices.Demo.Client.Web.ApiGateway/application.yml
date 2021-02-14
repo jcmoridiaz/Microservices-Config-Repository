@@ -6,7 +6,7 @@ WebApiGatewaySettings:
 Routes: 
     -    
         DownstreamPathTemplate: /api/Users
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Users
         ServiceName: Microservices.Demo.Auth.API
         UpstreamHttpMethod: 
@@ -22,7 +22,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -
         DownstreamPathTemplate: /api/Users
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Users
         ServiceName: Microservices.Demo.Auth.API
         UpstreamHttpMethod:
@@ -32,7 +32,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -    
         DownstreamPathTemplate: /api/Products/{everything}
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Products/{everything}
         ServiceName: Microservices.Demo.Product.API
         UpstreamHttpMethod: 
@@ -48,7 +48,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -
         DownstreamPathTemplate: /api/Products
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Products
         ServiceName: Microservices.Demo.Product.API
         UpstreamHttpMethod:
@@ -64,7 +64,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -
         DownstreamPathTemplate: /api/Offers
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Offers
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
@@ -80,7 +80,7 @@ Routes:
             AgentLogin: Claims[http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier] > value[0] > |
     -
         DownstreamPathTemplate: /api/Policies
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Policies
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
@@ -94,7 +94,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -
         DownstreamPathTemplate: /api/Policies/{number}
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/Policies/{number}
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
@@ -110,7 +110,7 @@ Routes:
         DangerousAcceptAnyServerCertificateValidator: true
     -
         DownstreamPathTemplate: /api/PoliciesSearch
-        DownstreamScheme: http
+        DownstreamScheme: https
         UpstreamPathTemplate: /api/PoliciesSearch
         ServiceName: Microservices.Demo.PolicySearch.API
         UpstreamHttpMethod: 
