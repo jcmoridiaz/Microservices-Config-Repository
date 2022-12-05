@@ -1,5 +1,5 @@
 ConnectionStrings: 
-    MicroservicesMonitoringDashboardConnection: Data Source=.;Initial Catalog=Microservices.Monitoring.Dashboard;User ID=sa;Password=Password1234
+    MicroservicesMonitoringDashboardConnection: Data Source=sqlserver;Initial Catalog=Microservices.Monitoring.Dashboard;User ID=sa;Password=Password1234
 HealthChecksUI: 
     HealthChecks:
         -   
