@@ -1,2 +1,7 @@
 ConnectionStrings: 
     MicroservicesMonitoringConnection: Data Source=sqlserver;Initial Catalog=Microservices.Monitoring;User ID=sa;Password=Password1234
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://apm-server:8200
+    ServiceName: Microservices.Monitoring.Products.API
+    Environment: production

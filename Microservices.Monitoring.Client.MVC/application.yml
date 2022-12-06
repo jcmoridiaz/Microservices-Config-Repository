@@ -1,0 +1,5 @@
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://apm-server:8200
+    ServiceName: Microservices.Monitoring.Client.MVC
+    Environment: production
