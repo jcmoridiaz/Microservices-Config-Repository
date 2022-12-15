@@ -6,3 +6,8 @@ SecurityDatabaseSettings:
     UsersCollectionName: Users
     ConnectionString: mongodb://microservices.demo.auth.db:27017
     DatabaseName: SecurityDB
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://microservices.demo.apm-server:8200
+    ServiceName: Microservices.Demo.Auth.API
+    Environment: production
