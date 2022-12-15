@@ -1,2 +1,7 @@
 ConnectionStrings: 
     ProductConnection: Data Source=microservices.demo.product.db;Initial Catalog=Microservices.Demo.Product;Persist Security Info=True;User ID=sa;Password=Password1234
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://microservices.demo.apm-server:8200
+    ServiceName: Microservices.Demo.Product.API
+    Environment: production
