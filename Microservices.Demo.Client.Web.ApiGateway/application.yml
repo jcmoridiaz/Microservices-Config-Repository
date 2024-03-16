@@ -158,7 +158,9 @@ Routes:
 #                -      
         RouteClaimsRequirement:
             userType: SALESMAN      
-        DangerousAcceptAnyServerCertificateValidator: true        
+        DangerousAcceptAnyServerCertificateValidator: true
+        AddHeadersToRequest:
+            AgentLogin: Claims[http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier] > value[0] > |                
 GlobalConfiguration:
     RequestIdKey: OcRequestId
     AdministrationPath: /administration
